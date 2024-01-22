@@ -1,5 +1,8 @@
 package main;
 
+import java.io.Console;
+
+import model.Budgerigar;
 import model.Example;
 
 public class Runner {
@@ -11,7 +14,8 @@ public class Runner {
 
 	private void go() {
 		Example example = new Example();
-		example.makeNoise();
-		
+		Budgerigar budgie = new Budgerigar();
+		System.out.println(example.makeNoise());
+		System.out.println(budgie.makeNoise());
 	}
 }
