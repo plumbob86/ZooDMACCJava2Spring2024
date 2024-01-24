@@ -1,6 +1,7 @@
 package main;
 
 import model.Example;
+import model.Penguin;
 
 public class Runner {
 
@@ -11,7 +12,13 @@ public class Runner {
 
 	private void go() {
 		Example example = new Example();
-		example.makeNoise();
+		System.out.println(example.makeNoise());
+		
+		// Creating an instance of the Penguin class
+		Penguin penguin = new Penguin("Emperor", "Antarctica", 100);
+		
+		// Making the penguin go HONK!!!!
+		System.out.println(penguin.makeNoise());
 		
 	}
 }
