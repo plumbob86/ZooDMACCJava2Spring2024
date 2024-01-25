@@ -1,6 +1,7 @@
 package main;
 
 import model.Example;
+import model.Cat;
 
 public class Runner {
 
@@ -12,6 +13,8 @@ public class Runner {
 	private void go() {
 		Example example = new Example();
 		example.makeNoise();
+		Cat cat = new Cat();
+		cat.speak();
 		
 	}
 }
