@@ -1,6 +1,7 @@
 package main;
 
 import model.Example;
+import model.Koala;
 
 public class Runner {
 
@@ -12,6 +13,9 @@ public class Runner {
 	private void go() {
 		Example example = new Example();
 		example.makeNoise();
+		
+		Koala koala = new Koala("Forest", "Jim", 73.5);
+		System.out.println(koala.makeNoise());
 		
 	}
 }
