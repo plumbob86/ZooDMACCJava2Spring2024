@@ -1,12 +1,12 @@
 package model;
 
-public class Example {
+public class Snake {
 	private String habitat;
 	private String name;
 	private int length;
 
 	//For Git Demo!
-	public Example() {
+	public Snake() {
 		super();
 		// TODO Auto-generated constructor stub
 		// Test Comment
@@ -17,7 +17,7 @@ public class Example {
 	 * @param name
 	 * @param length
 	 */
-	public Example(String habitat, String name, int length) {
+	public Snake(String habitat, String name, int length) {
 		super();
 		this.habitat = habitat;
 		this.name = name;
@@ -69,10 +69,10 @@ public class Example {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Example [name=" + name + ", length=" + length + "inches, habitat=" + habitat + "]";
+		return "Snake: [name=" + name + ", length=" + length + "inches, habitat=" + habitat + "]";
 	}
 
 	public String makeNoise() {
-		return "Example!";
+		return "Hisssss!";
 	}
 }

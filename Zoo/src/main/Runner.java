@@ -1,6 +1,6 @@
 package main;
 
-import model.Example;
+import model.Snake;
 
 public class Runner {
 
@@ -10,8 +10,9 @@ public class Runner {
 	}
 
 	private void go() {
-		Example example = new Example();
-		example.makeNoise();
+		Snake example = new Snake("Jungle", "Vipr", 34);
+		System.out.println(example);
+		System.out.println(example.getName() + " the snake goes, " + example.makeNoise());
 		
 	}
 }
