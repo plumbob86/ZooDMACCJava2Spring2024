@@ -1,0 +1,19 @@
+package main;
+
+import model.Bird;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Runner run = new Runner();
+		run.go();
+	}
+
+	private void go() {
+		Bird birdObj = new Bird();
+		birdObj.makeNoise();
+		
+	}
+	
+
+}
