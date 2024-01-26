@@ -1,5 +1,6 @@
 package main;
 
+import model.Elephant;
 import model.Example;
 
 public class Runner {
@@ -12,6 +13,10 @@ public class Runner {
 	private void go() {
 		Example example = new Example();
 		example.makeNoise();
+		
+		Elephant elephant = new Elephant("Savanna", "Blue", 28.4);
+		
+		System.out.println(elephant.makeNoise());
 		
 	}
 }
