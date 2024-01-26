@@ -1,6 +1,6 @@
 package main;
-
-import model.Example;
+ 
+import model.dog;
 
 public class Runner {
 
@@ -10,8 +10,13 @@ public class Runner {
 	}
 
 	private void go() {
-		Example example = new Example();
-		example.makeNoise();
 		
+		
+		//create instance of animal and print results
+		dog myDog = new dog("Labrador", "Max", 3, "Golden");
+		
+		System.out.println("My dog says: " + myDog.bark());
+
+
 	}
 }
