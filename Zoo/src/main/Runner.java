@@ -1,6 +1,7 @@
 package main;
 
 import model.Example;
+import model.Wallaby;
 
 public class Runner {
 
@@ -12,6 +13,11 @@ public class Runner {
 	private void go() {
 		Example example = new Example();
 		example.makeNoise();
+		
+		Wallaby wallaby = new Wallaby("Bob", 4, "grey");
+		wallaby.speak();
+		
+		System.out.println(wallaby.speak());
 		
 	}
 }
