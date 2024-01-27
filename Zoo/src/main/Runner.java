@@ -1,6 +1,7 @@
 package main;
 
 import model.Example;
+import model.Dolphin;
 
 public class Runner {
 
@@ -13,5 +14,8 @@ public class Runner {
 		Example example = new Example();
 		example.makeNoise();
 		
+		//create dolphin object and call speak method
+		Dolphin dolphin1 = new Dolphin("Tony", 23, "blue");
+		System.out.println(dolphin1.speak());
 	}
 }
