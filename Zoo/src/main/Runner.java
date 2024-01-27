@@ -1,6 +1,5 @@
 package main;
-
-import model.Example;
+import model.Tiger;
 
 public class Runner {
 
@@ -10,8 +9,8 @@ public class Runner {
 	}
 
 	private void go() {
-		Example example = new Example();
-		example.makeNoise();
+		Tiger tiger = new Tiger("Jungle");
 		
+		System.out.println(tiger.MakeNoise());
 	}
 }
