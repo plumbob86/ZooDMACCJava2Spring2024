@@ -9,7 +9,7 @@ public class Example {
 	public Example() {
 		super();
 		// TODO Auto-generated constructor stub
-		// Test Comment
+		// Test Comments
 	}
 
 	/**
@@ -17,6 +17,7 @@ public class Example {
 	 * @param name
 	 * @param length
 	 */
+	
 	public Example(String habitat, String name, int length) {
 		super();
 		this.habitat = habitat;
