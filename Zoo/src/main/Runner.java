@@ -1,6 +1,6 @@
 package main;
 
-import model.Example;
+import model.Wolverine
 
 public class Runner {
 
@@ -10,8 +10,8 @@ public class Runner {
 	}
 
 	private void go() {
-		Example example = new Example();
-		example.makeNoise();
+		Wolverine sue = new Wolverine("Sue", 3, false);
+		System.out.println(sue.growl());
 		
 	}
 }
