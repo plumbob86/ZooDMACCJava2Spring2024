@@ -1,6 +1,6 @@
 package main;
 
-import model.Example;
+import model.Cow;
 
 public class Runner {
 
@@ -9,9 +9,12 @@ public class Runner {
 		run.go();
 	}
 
-	private void go() {
-		Example example = new Example();
-		example.makeNoise();
+private void go() {
 		
+		//create instance of animal and print results
+		Cow myCow = new Cow("Beefalo", "Maggie", 6, "Brown");
+		
+		System.out.println("Cow says: " + myCow.makeNoise());
+	
 	}
 }
