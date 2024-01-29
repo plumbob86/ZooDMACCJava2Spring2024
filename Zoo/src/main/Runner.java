@@ -10,8 +10,7 @@ public class Runner {
 	}
 
 	private void go() {
-		Example example = new Example();
-		example.makeNoise();
-		
+		Lion wildLion = new Lion("Africa", "Teddy", 4);
+		System.out.println("The lion says " + wildLion.makeNoise());
 	}
 }
