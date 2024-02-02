@@ -1,5 +1,6 @@
 package main;
 
+import model.Crow;
 import model.Example;
 
 public class Runner {
@@ -13,5 +14,7 @@ public class Runner {
 		Example example = new Example();
 		example.makeNoise();
 		
+		Crow crow = new Crow();
+		System.out.println(crow.makeNoise());		
 	}
 }
